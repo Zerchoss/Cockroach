@@ -1,0 +1,52 @@
+.user-info-form {
+    background-color: #A77C00;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+.user-info-form input {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 250px;
+}
+.start-button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.start-button:hover {
+    background-color: DimGrey;
+}
+body{
+    background-color: #F29969;
+    margin:0;
+    
+}
+header{
+    background-color: #684203;
+}
+footer{
+    background-color: #684203;
+    padding-top: 200px;
+    height: auto;
+    width: auto;
+}
+.info{
+    font-size: large;
+    color: white;
+}
