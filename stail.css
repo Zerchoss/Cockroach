@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    align-items: center;
 }
 header{
     background-color:#945B28;
@@ -7,10 +8,26 @@ header{
     margin: 0px;
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 .logo{
     border-radius: 30px;
     height: 200px;
     width: 100px;
     margin: 40px;
+}
+a{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+main{
+    background-color: #F29969;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
 }
