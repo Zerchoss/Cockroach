@@ -39,7 +39,11 @@ body{
 }
 header{
     background-color: #684203;
+    padding-top: 100px;
+    height: auto;
+    width: auto;
 }
+
 footer{
     background-color: #684203;
     padding-top: 200px;
@@ -49,4 +53,8 @@ footer{
 .info{
     font-size: large;
     color: white;
+}
+.photo{
+    width: 100px;
+    height: 100px;
 }
