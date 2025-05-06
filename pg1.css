@@ -39,12 +39,14 @@
     background-color: black;
     color: white;
     border: none;
+    margin-bottom: auto;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
 }
 .start-button:hover {
-    background-color: DimGrey;
+    background-color: dimgrey;
+    transform: scale(1.05);
 }
 body{
     background-color: #F29969;
@@ -52,11 +54,19 @@ body{
     
 }
 header{
-    background-color: #684203;
-    padding-top: 100px;
-    height: auto;
-    width: auto;
+    background-color:#945B28;
+    color: white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
+.logo{
+    border-radius: 30px;
+    height: 200px;
+    width: 100px;
+    margin: 40px;
+}
+
 
 footer{
     background-color: #684203;
@@ -68,7 +78,18 @@ footer{
     font-size: large;
     color: white;
 }
-.photo{
-    width: 500px;
-    height: 500px;
+.form-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.form-image-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
 }
