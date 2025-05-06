@@ -11,6 +11,20 @@
     margin-top: auto;
     
 }
+.page{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+.logo{
+    border-radius: 30px;
+    height: 200px;
+    width: 100px;
+    margin: 40px;
+}
 .user-info-form input {
     font-size: 18px;
     padding: 8px 12px;

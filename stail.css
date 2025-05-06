@@ -16,7 +16,7 @@ header{
     width: 100px;
     margin: 40px;
 }
-a{
+.page{
     background-color: aliceblue;
     color: black;
     border-radius: 20px;
@@ -30,4 +30,16 @@ main{
     padding: 5px;
     align-items: center;
     text-align: center;
+}
+.centrale{
+    display: flex;   
+}
+.opis{
+    background-color: azure;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid 1px black;
+    margin-left: 300px;
+    margin-right: 300px;
 }
