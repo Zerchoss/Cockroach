@@ -1,16 +1,3 @@
-.user-info-form {
-    background-color: #A77C00;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: auto;
-    width: 350px;
-    height: 450px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    
-}
 body {
     background-color: #F6B68E;
     margin: 0;
@@ -70,34 +57,41 @@ main {
     padding: 40px 20px;
 }
 
+.services {
+    text-align: center;
+}
 
-.user-info-form input {
+.rating {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service-img {
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.service-list {
+    list-style-type: '🪳 ';
     font-size: 18px;
-    padding: 8px 12px;
-    margin: 8px;
-    border-radius: 8px;
-    border: 1px solid black;
-    width: 250px;
+    text-align: left;
+    max-width: 300px;
+    padding: 0;
 }
-.start-button {
-    font-size: 20px;
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
-    border: none;
-    margin-bottom: auto;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.start-button:hover {
-    background-color: dimgrey;
-    transform: scale(1.05);
-}
-body{
-    background-color: #F29969;
-    margin:0;
-    
+
+.service-list li {
+    margin-bottom: 12px;
+    line-height: 1.5;
 }
 
 footer {
@@ -107,22 +101,18 @@ footer {
     padding: 40px 20px;
     font-size: 16px;
 }
-.info{
-    font-size: large;
-    color: white;
-}
-.form-image {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
 
-.form-image-photo {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+@media screen and (max-width: 768px) {
+    .services-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-img {
+        width: 80%;
+    }
+
+    .service-list {
+        text-align: center;
+    }
 }
