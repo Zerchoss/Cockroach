@@ -1,0 +1,80 @@
+body {
+    background-color: #F6B68E;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #7A441A;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 20px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.page {
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.page:hover {
+    background-color: #ffcc99;
+    transform: scale(1.05);
+}
+main{
+    background-color: #F29969;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+.centrale{
+    display: flex;   
+}
+.opis{
+    background-color: azure;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid 1px black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer {
+    background-color: #54300D;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 16px;
+}

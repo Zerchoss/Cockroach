@@ -1,0 +1,128 @@
+.user-info-form {
+    background-color: #A77C00;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+body {
+    background-color: #F6B68E;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #7A441A;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 20px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.page {
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.page:hover {
+    background-color: #ffcc99;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 40px 20px;
+}
+
+
+.user-info-form input {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 250px;
+}
+.start-button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.start-button:hover {
+    background-color: dimgrey;
+    transform: scale(1.05);
+}
+body{
+    background-color: #F29969;
+    margin:0;
+    
+}
+
+footer {
+    background-color: #54300D;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 16px;
+}
+.info{
+    font-size: large;
+    color: white;
+}
+.form-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.form-image-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
