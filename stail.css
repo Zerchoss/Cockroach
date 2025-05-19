@@ -79,6 +79,36 @@ footer {
     text-align: center;
     padding: 40px 20px;
     font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 4px solid #ffcc00;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 .coleg{
     background-color: aqua;
