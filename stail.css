@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
+     align-items: center;
+    text-align: center;
 }
 
 header {
@@ -77,4 +79,65 @@ footer {
     text-align: center;
     padding: 40px 20px;
     font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 4px solid #ffcc00;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.coleg{
+    background-color: aqua;
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+     align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+.hospital{
+    width: 60px;
+    height: 60px;
+}
+h3{
+    margin-left: 110px;
+    margin-right: 50px;
+}
+.cote{
+    width: 130px;
+    height: 50px;
+}
+.stok{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-right: 30px;
+} 
+.stokop{
+    margin: 10px;
 }
