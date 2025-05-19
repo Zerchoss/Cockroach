@@ -87,6 +87,7 @@ footer {
     display: flex;
      align-items: center;
     text-align: center;
+    padding: 10px;
     
 }
 .hospital{
@@ -94,8 +95,8 @@ footer {
     height: 60px;
 }
 h3{
-    margin-left: 380px;
-    margin-right: 60px;
+    margin-left: 110px;
+    margin-right: 50px;
 }
 .cote{
     width: 130px;
@@ -105,6 +106,7 @@ h3{
     width: 100px;
     height: 100px;
     margin: 10px;
+    margin-right: 30px;
 } 
 .stokop{
     margin: 10px;
