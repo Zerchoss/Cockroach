@@ -3,14 +3,14 @@
     text-align: center;
     justify-content: center;
     margin-bottom: auto;
-    width: 350px;
+    width: 400px;
     height: 450px;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    
 }
+
 body {
     background-color: #F6B68E;
     margin: 0;
@@ -70,7 +70,6 @@ main {
     padding: 40px 20px;
 }
 
-
 .user-info-form input {
     font-size: 18px;
     padding: 8px 12px;
@@ -79,6 +78,7 @@ main {
     border: 1px solid black;
     width: 250px;
 }
+
 .start-button {
     font-size: 20px;
     padding: 10px 30px;
@@ -90,14 +90,10 @@ main {
     cursor: pointer;
     transition: 0.2s;
 }
+
 .start-button:hover {
     background-color: dimgrey;
     transform: scale(1.05);
-}
-body{
-    background-color: #F29969;
-    margin:0;
-    
 }
 
 footer {
@@ -106,42 +102,13 @@ footer {
     text-align: center;
     padding: 40px 20px;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-top: 4px solid #ffcc00;
 }
 
-.footer-container {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-links a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffcc00;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.info{
+.info {
     font-size: large;
     color: white;
 }
+
 .form-image {
     display: flex;
     justify-content: center;
@@ -156,4 +123,49 @@ footer p {
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+}
+
+/* Стиль для відгуків */
+.comment {
+    background-color: #d2b48c;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.user-vidguk-form input {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 250px;
+
+}
+.user-vidguk-form {
+    background-color: #A77C00;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.send-button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.send-button:hover {
+    background-color: dimgrey;
+    transform: scale(1.05);
 }

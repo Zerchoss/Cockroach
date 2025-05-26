@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Виклик</title>
-    <link rel="stylesheet" href="pg1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Виклик</title>
+  <link rel="stylesheet" href="pg1.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
-    <header>
-        <img class="logo" src="https://th.bing.com/th/id/OIP.uAk3LTLoeNKlb9uKjRI-hAHaHa?w=169&h=180&c=7&r=0&o=5&cb=iwc1&dpr=1.5&pid=1.7" alt="лого">
-        <div class="header-content">
-            <h1>Виселяєм вас, заселяєм тараканов!</h1>
-            <nav>
-                <a class="page" href="beginning.html">Головна</a>
-                <a class="page" href="index.html">Види тараканів</a>
-                <a class="page" href="uslugi.html">Услуги</a>
-            </nav>
-        </div>
-    </header>
+
 <body>
-    <div class="form-image">
-        <img class="form-image-photo" src="https://pushinka.top/uploads/posts/2023-04/1681478008_pushinka-top-p-durka-mem-ava-instagram-1.webp" alt="мем зліва">
-        
-         <form id="contactForm" class="user-info-form">
-            <h2>Введіть ваші дані для виклику санітарів:</h2>
-            <input type="text" name="surname" id="surname" placeholder="Прізвище"><br><br>
-            <input type="text" name="name" id="name" placeholder="Ім’я"><br><br>
-            <input type="text" name="city" id="City" placeholder="Місто"><br><br>
-            <input type="text" name="house" id="House" placeholder="Дім"><br><br>
-            <button type="submit" class="start-button">Відправити санітарів ➜</button>
-        </form>
-        
-        <img class="form-image-photo" src="https://pushinka.top/uploads/posts/2023-04/1681478008_pushinka-top-p-durka-mem-ava-instagram-1.webp" alt="мем справа">
+  <header>
+    <img class="logo" src="https://th.bing.com/th/id/OIP.uAk3LTLoeNKlb9uKjRI-hAHaHa?w=169&h=180&c=7&r=0&o=5&cb=iwc1&dpr=1.5&pid=1.7" alt="лого">
+    <div class="header-content">
+      <h1>Виселяєм вас, заселяєм тараканов!</h1>
+      <nav>
+        <a class="page" href="beginning.html">Головна</a>
+        <a class="page" href="index.html">Види тараканів</a>
+        <a class="page" href="uslugi.html">Услуги</a>
+      </nav>
     </div>
+  </header>
+
+  <div class="form-image">
+    <img class="form-image-photo" src="https://pushinka.top/uploads/posts/2023-04/1681478008_pushinka-top-p-durka-mem-ava-instagram-1.webp" alt="мем зліва">
     
-    
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <form id="contactForm" class="user-info-form">
+      <h2>Введіть ваші дані для виклику санітарів:</h2>
+      <input type="text" id="surname" name="surname" placeholder="Прізвище"><br><br>
+      <input type="text" id="name" name="name" placeholder="Ім’я"><br><br>
+      <input type="text" id="City" name="City" placeholder="Місто"><br><br>
+      <input type="text" id="House" name="House" placeholder="Дім"><br><br>
+      <button class="start-button" type="submit">Відправити санітарів ➜</button>
+    </form>
 
-
-<script src="pg1.js"></script>
-
-</body>
-<footer>
-  <div class="footer-container">
-    <p>📍 Адреса: Jl. Bhayangkara gg.seriti, Pasir putih,<br>
-      Karang Anyar, Kec. Tarakan Bar., Kota Tarakan,<br>
-      Kalimantan Utara 77111, Індонезія
-    </p>
-
-    <p>☎ Телефон: +62 234 346 3456 09</p>
-    
-    <p>🪳 Спецслужба боротьби з тарганами</p>
-
-    <div class="social-links">
-      <a href="https://www.instagram.com/ev_tarakani?igsh=MTAzeTdqOWpsNHh5bw==" target="_blank">📸 Instagram</a>
-      <a href="https://t.me/+XHFwhpsXaJ9kNWYy" target="_blank">✈️ Telegram</a>
-      <a href="https://discord.gg/KzAa7sB5" target="_blank">🎮 Discord</a>
-    </div>
+    <img class="form-image-photo" src="https://pushinka.top/uploads/posts/2023-04/1681478008_pushinka-top-p-durka-mem-ava-instagram-1.webp" alt="мем справа">
   </div>
-</footer>
 
+  <main style="padding: 40px 20px;">
+    <div class="user-vidguk-form">
+      <h2>Залиши відгук</h2>
+      <input id="name2" placeholder="Ім'я"><br><br>
+      <textarea id="text1" placeholder="Твій відгук"></textarea><br><br>
+      <button id="send-button" class="send-button">Надіслати</button>
+    </div>
+
+    <h3>Відгуки:</h3>
+    <div id="result"></div>
+  </main>
+
+  <footer>
+    <p class="info">
+      📍 Адрес: Jl. Bhayangkara gg.seriti, Pasir putih,<br>
+      Karang Anyar, Kec. Tarakan Bar., Kota Tarakan,<br>
+      Kalimantan Utara 77111, Індонезія<br>
+      ☎ Тел: +62 234 346 3456 09
+    </p>
+  </footer>
+
+  <script src="pg1.js"></script>
+</body>
 </html>
