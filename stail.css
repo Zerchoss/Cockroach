@@ -141,3 +141,18 @@ h3{
 .stokop{
     margin: 10px;
 }
+.Bob{
+    background-color: #ffffff;
+    border-radius: 47px;
+    color: #333;
+}
+section{
+    margin-top:300px;
+    background-color: aqua;
+    border-radius: 75px;
+}
+.jin{  
+     background-color: aqua;
+    border-radius: 12px;
+padding: 4px;
+}
